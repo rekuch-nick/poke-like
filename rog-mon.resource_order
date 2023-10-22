@@ -44,6 +44,7 @@
     {"name":"mermaid_water","order":47,"path":"sprites/mermaid_water/mermaid_water.yy",},
     {"name":"simulacrum_large","order":47,"path":"sprites/simulacrum_large/simulacrum_large.yy",},
     {"name":"water_elemental772","order":6,"path":"sprites/water_elemental772/water_elemental772.yy",},
+    {"name":"creatureLevelUp","order":34,"path":"scripts/creatureLevelUp/creatureLevelUp.yy",},
     {"name":"imgBat","order":51,"path":"sprites/imgBat/imgBat.yy",},
     {"name":"imgImp","order":91,"path":"sprites/imgImp/imgImp.yy",},
     {"name":"blink_frog","order":16,"path":"sprites/blink_frog/blink_frog.yy",},

@@ -197,6 +197,7 @@
     {"id":{"name":"mermaid_water","path":"sprites/mermaid_water/mermaid_water.yy",},},
     {"id":{"name":"simulacrum_large","path":"sprites/simulacrum_large/simulacrum_large.yy",},},
     {"id":{"name":"water_elemental772","path":"sprites/water_elemental772/water_elemental772.yy",},},
+    {"id":{"name":"creatureLevelUp","path":"scripts/creatureLevelUp/creatureLevelUp.yy",},},
     {"id":{"name":"imgBat","path":"sprites/imgBat/imgBat.yy",},},
     {"id":{"name":"imgImp","path":"sprites/imgImp/imgImp.yy",},},
     {"id":{"name":"blink_frog","path":"sprites/blink_frog/blink_frog.yy",},},

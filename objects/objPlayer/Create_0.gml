@@ -7,7 +7,7 @@ xSpot = floor(x / 64);
 ySpot = floor(y / 64);
 x = xSpot * 64 + 32; y = ySpot * 64 + 32;
 
-moveSpeed = 30;
+moveSpeed = 15;
 queueEnterTile = false;
 onExit = false;
 

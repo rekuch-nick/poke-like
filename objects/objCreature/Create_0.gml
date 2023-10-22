@@ -18,25 +18,26 @@ moves = [Move.strike];
 move = 0;
 
 
-actCDMax = 100;
+ap = 100;
+apMax = 100;
+spd = 10;
 
-
-fort = 10;
-ref = 10;
-wil = 10;
+def = 0;
+res = 0;
+evd = 0;
 
 str = 10;
-spd = 10;
 mag = 10;
 
 
+//secondary 
+crit = 0;
+aim = 0;
 
 
 
 
 
-actCDMax = clamp(actCDMax - spd, 20, actCDMax);
 
 
 
-actCD = actCDMax;
