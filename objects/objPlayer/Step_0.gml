@@ -1,4 +1,10 @@
 playerInput();
+
+
+
+
+
+
 if(ww.state != State.play){ return; }
 
 
@@ -76,6 +82,14 @@ if(!moving){
 	
 	
 }
+
+
+if(pressedChar == "1" && forms[0] != noone){ form = 0; }
+if(pressedChar == "2" && forms[1] != noone){ form = 1; }
+if(pressedChar == "3" && forms[2] != noone){ form = 2; }
+if(pressedChar == "4" && forms[3] != noone){ form = 3; }
+if(pressedChar == "5" && forms[4] != noone){ form = 4; }
+if(pressedChar == "6" && forms[5] != noone){ form = 5; }
 
 
 

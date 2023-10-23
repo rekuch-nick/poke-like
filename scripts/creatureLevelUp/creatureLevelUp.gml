@@ -1,22 +1,22 @@
-function creatureLevelUp(c){
+function creatureLevelUp(m, l){
 	
-	c.level ++;
+	m.level = l;
 	
-	if(c.sprite_index == imgCinderBear ||
-		c.sprite_index == imgPhaseFrog ){
+	if(m.sprite_index == imgCinderBear){
+		m.elements = [Ele.fire];
+		m.moves = [Move.strike];
+		m.hp = 200; atk = 20; mag = 15; spd = 12;
+	
 		
-		c.str ++;
-		c.hpMax += 10; c.hp += 10;
+	} else if (m.sprite_index == imgSeaSnake) {
 		
-	} else if (c.sprite_index == imgSeaSnake) {
-		c.hpMax += 10; c.hp += 10;
 	
 	
 	
 	
 	} else {
-		c.hpMax += 10; c.hp += 10;
+		
 	}
 	
-	
+	return m;
 }

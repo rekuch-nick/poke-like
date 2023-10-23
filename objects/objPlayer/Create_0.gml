@@ -23,6 +23,8 @@ for(var i=0; i<6; i++){ forms[i] = noone; }
 forms[0] = creatureFactory(imgCinderBear, 0, 1);
 form = 0;
 
+forms[1] = creatureFactory(imgBloodSpider, 1, 1);
+
 
 
 stepsTillMob = 1;

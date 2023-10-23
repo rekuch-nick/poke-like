@@ -10,5 +10,16 @@ function creatureFactory(typ, aly, lev){
 	m.level = lev;
 	m.aly = aly;
 	
+	
+	m = creatureLevelUp(m, lev);
+	
+	
+	
+	
+	
+	
+	m.hpMax = m.hp;
+	m.mpMax = m.mp;
+	m.apMax = 100 - m.spd;
 	return m;
 }

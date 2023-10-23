@@ -26,16 +26,65 @@ if(over){
 if(image_alpha < 1){ image_alpha += .03; 
 	
 	if(image_alpha >= 1){
-		foe = creatureFactory(ww.mmap[pc.xSpot, pc.ySpot].sprite_index, -1, 1);
+		foe = ww.mmap[pc.xSpot, pc.ySpot]
+		c2 = creatureFactory(foe.foes[foeIndex], -1, 1);
+		c1 = pc.forms[pc.form];
+		
+		c1.ap = irandom_range(0, c1.apMax/2);
+		c2.ap = irandom_range(0, c2.apMax/2);
 	}
 	
 	
-	return; }
+	return; 
+}
 	
 	
 	
+
+
+
+combatStep(c2, c1);
+combatStep(c1, c2);
+
+
+
+if(c2.hp < 1){
+	foeIndex ++;
+	if(foeIndex < array_length(foe.foes) ){
+		instance_destroy(c2)
+		c2 = creatureFactory(foe.foes[foeIndex], -1, 1);
+		c2.ap = 0;
+		
+	} else {
+		over = true;
+		
+	}
 	
+	
+	
+}
+
+
+
+
 	
 if(pc.pressedEnter){
 	over = true;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

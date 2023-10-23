@@ -21,4 +21,11 @@ function zzNums(){
 	enum Move {
 		strike,
 	}
+	
+	enum Proc {
+		crit,
+		poison,
+		burn,
+		blind,
+	}
 }

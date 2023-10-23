@@ -1,7 +1,8 @@
 image_xscale = 4;
 image_yscale = 4;
-
-
+xx = x;
+yy = y;
+moveSpeed = 8;
 
 
 hp = 40;
@@ -18,7 +19,7 @@ moves = [Move.strike];
 move = 0;
 
 
-ap = 100;
+ap = 0;
 apMax = 100;
 spd = 10;
 
@@ -26,7 +27,7 @@ def = 0;
 res = 0;
 evd = 0;
 
-str = 10;
+atk = 10;
 mag = 10;
 
 
